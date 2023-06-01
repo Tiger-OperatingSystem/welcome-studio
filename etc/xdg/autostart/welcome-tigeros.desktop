@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=welcome-studio
+Icon=welcome-studio
+Name=Welcome  Studio TigerOS
+StartupNotify=true
+Terminal=false
+Type=Application
