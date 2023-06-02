@@ -9,10 +9,10 @@
 
 mkdir -p ~/.config/autostart
 
-if [ -e ~/.config/autostart/welcome-tigeros.desktop ];then
-    rm ~/.config/autostart/welcome-tigeros.desktop
+if [ -e ~/.config/autostart/welcome-studio.desktop ];then
+    rm ~/.config/autostart/welcome-studio.desktop
 else
     echo "[Desktop Entry]
-Hidden=true" > ~/.config/autostart/welcome-tigeros.desktop
+Hidden=true" > ~/.config/autostart/welcome-studio.desktop
 fi
 exit
