@@ -13,6 +13,6 @@ if [ -e ~/.config/autostart/welcome-studio.desktop ];then
     rm ~/.config/autostart/welcome-studio.desktop
 else
     echo "[Desktop Entry]
-Hidden=true" > ~/.config/autostart/welcome-studio.desktop
+    Hidden=true" > ~/.config/autostart/welcome-studio.desktop
 fi
 exit
