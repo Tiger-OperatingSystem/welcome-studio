@@ -18,12 +18,13 @@ sed -i "s|1.2.9|$(date +%y.%m.%d%H%M%S)|g" ${working_dir}/DEBIAN/control
 
 rm ${working_dir}/build.sh
 rm ${working_dir}/README.md
+rm -R ${working_dir}/imgs
 chmod -v -R +x ${working_dir}
 
 dpkg -b ${working_dir}
 rm -rfv ${working_dir}
 
-mv "${working_dir}.deb" "${HERE}/welcome-studio_1.3.0_amd64.deb"
+mv "${working_dir}.deb" "${HERE}/welcome-studio_amd64.deb"
 
-chmod 777 "${HERE}/welcome-studio_1.3.0_amd64.deb"
-chmod -x  "${HERE}/welcome-studio_1.3.0_amd64.deb"
+chmod 777 "${HERE}/welcome-studio_amd64.deb"
+chmod -x  "${HERE}/welcome-studio_amd64.deb"
