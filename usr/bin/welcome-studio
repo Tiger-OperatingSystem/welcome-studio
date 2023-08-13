@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-/var/lib/curso-linux/alerta-videos ;
-cd /usr/share/welcome-studio
-bigbashview -t gtk -w fixed -s 900x620 -i icons/logo.png -n 'Bem-vindo ao TigerOS Studio' index.sh.htm

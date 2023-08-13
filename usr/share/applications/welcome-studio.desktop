@@ -1,8 +1,0 @@
-[Desktop Entry]
-Exec=welcome-studio
-Icon=welcome-studio
-Name=Bem-vindo TigerOS Studio
-Categories=Settings;
-StartupNotify=true
-Terminal=false
-Type=Application
