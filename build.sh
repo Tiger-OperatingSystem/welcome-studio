@@ -22,4 +22,4 @@ dpkg-deb -b $caminho/build/Welcome.Deb/ $caminho
 
 sudo rm -R $caminho/build
 
-mv $caminho/welcome-tigeros_*.deb $caminho/welcome.deb
+mv $caminho/*.deb $caminho/welcome.deb
