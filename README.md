@@ -1,6 +1,6 @@
-# Welcome TigerOS Studio
+# Welcome Tiger Studio
 
-## Deixe o TigerOS do seu jeito
+## Deixe o Tiger Studio do seu jeito
 
 ![Tela início Welcome-Tiger Screenshot][def1]
 
